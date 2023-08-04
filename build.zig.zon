@@ -1,0 +1,10 @@
+.{
+    .name = "libpng",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zlib = .{
+            .url = "https://github.com/mitchellh/zig-build-zlib/archive/830761587bf91616d45e6a2669359e7eb5d27ae7.tar.gz",
+            .hash = "12201c84e11aae4391e032f2ed86862d7ee2259a0b4892ee76b2e361d06e8da37338",
+        },
+    },
+}
